@@ -1,14 +1,14 @@
 # Site settings
-title: 博客名字 # 你的博客名字，可以定义修订
+title: BeidgeTong # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "这是我的博客"  # 一句话描述你的博客
+description: "在最美的年华里记录美好的事情"  # 一句话描述你的博客
 baseurl: ""
 url: "https://bridgetong.github.io"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
-  name: "tong" # 填写作者信息：名字
+  name: "Tong" # 填写作者信息：名字
   email: bridgetongg@gmail.com # 填写作者信息：邮箱
   bio: "about bridge" # 填写作者信息：博客描述
 
