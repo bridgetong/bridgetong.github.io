@@ -1,5 +1,6 @@
 # Site settings
 title: BridgeTong # 你的博客名字，可以定义修订
+SEOTitle: BridgeTong' Blog
 header-img: "img/H.jpg"
 tagline: "cn"  
 description: "在最美的年华里记录美好的事情"  # 一句话描述你的博客
@@ -16,6 +17,8 @@ owner:
 gavatar: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
 
+# SNS settings
+RSS: false
 github_username: bridgetong
 douban_username: 138468562
 weibo_username: 桐Zihuatanejo
@@ -45,12 +48,21 @@ defaults:
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 73a74672e99541b1741e                            #生成的clientID
+  clientSecret: dabd21ce273fb2d611534f5af723cc6a3ea0e00a    #生成的clientSecret
+  repo: bridgetong.github.io    #仓库名称
+  owner: bridgetong    #github用户名
+  admin: bridgetong
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  UA-80884545-1 # 填写你  google_analytics id
-google_verify:
+#google_analytics:  UA-80884545-1 # 填写你  google_analytics id
+#google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#bing_verify:
 
 # Links to include in footer navigation
