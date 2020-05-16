@@ -1,6 +1,6 @@
 # Site settings
-title: BridgeTong # 你的博客名字，可以定义修订
-SEOTitle: BridgeTong' Blog
+title: BridgeTonger # 你的博客名字，可以定义修订
+SEOTitle: BridgeTonger' Blog
 header-img: "img/H.jpg"
 tagline: "cn"  
 description: "在最美的年华里记录美好的事情"  # 一句话描述你的博客
@@ -44,7 +44,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Tong" # 你的名字
+      author: "Tonger" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
